@@ -26,7 +26,9 @@ public class Author {
         return this.gender;
     }
 
-    String ToString(){
+    @Override
+    public String toString(){
         return "Name: " + name + ", Email: " + email + ", Gender: " + gender + ".";
     }
-}
+
+ }

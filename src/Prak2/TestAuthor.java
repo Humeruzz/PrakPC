@@ -8,6 +8,6 @@ public class TestAuthor {
         person1.setEmail("victor123@mail.ru");
         System.out.println("His new email is " + person1.getEmail());
         System.out.println("His gender is " + person1.getGender());
-        System.out.println(person1.ToString());
+        System.out.println(person1);
     }
 }
